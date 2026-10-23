@@ -60,13 +60,10 @@ This learning starter was prepared with AI assistance. Adapt, test, and document
 ## Application Screenshots
 
 ### 1. ErrorMind Interface
-
-![ErrorMind Interface](screenshots/01-input.png)
+![ErrorMind Interface](screenshots/01-input.png.png)
 
 ### 2. Python Error Diagnosis
-
-![Error Diagnosis](screenshots/02-diagnosis.png)
+![Error Diagnosis](screenshots/02-diagnosis.png.png)
 
 ### 3. AI-Powered Explanation with Llama 3.2
-
-![AI Explanation](screenshots/03-ai-explanation.png)
+![AI Explanation](screenshots/03-ai-explanation.png.png)
