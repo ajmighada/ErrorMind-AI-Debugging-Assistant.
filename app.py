@@ -95,7 +95,7 @@ traceback_text = st.text_area(
 )
 
 use_llm = st.checkbox("✨ Add an AI-generated explanation (Ollama on this computer)", value=False)
-model_name = "llama3.2"
+model_name = "llama3.2:3b"
 if use_llm:
     model_name = st.text_input("Ollama model name (check with `ollama list`)", value="llama3.2")
     st.caption("The code and error are sent to your local Ollama API, not to a paid online service.")

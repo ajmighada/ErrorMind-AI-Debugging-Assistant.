@@ -2,7 +2,7 @@
 
 A small, local-first Streamlit application that explains common Python exceptions, finds traceback line numbers, and recommends debugging steps. It **never runs pasted code**.
 
-For optional generative-AI explanations, it can call a **local Ollama model** such as `llama3.2` through `http://127.0.0.1:11434/api/generate`.
+For optional generative-AI explanations, it can call a **local Ollama model** such as `llama3.2:3b` through `http://127.0.0.1:11434/api/generate`.
 
 ## Features
 
@@ -29,7 +29,7 @@ Ollama must be installed and running **on the same computer**.
 
 ```powershell
 ollama list
-ollama pull llama3.2
+ollama pull llama3.2:3b
 ```
 
 Check **Add an AI-generated explanation** in the interface and select the exact installed model name. If Ollama is unavailable, the basic rule-based analysis continues to work.
@@ -61,6 +61,9 @@ This learning starter was prepared with AI assistance. Adapt, test, and document
 
 ### 1. ErrorMind Interface
 ![ErrorMind Interface](screenshots/01-input.png.png)
+
+
+
 
 ### 2. Python Error Diagnosis
 ![Error Diagnosis](screenshots/02-diagnosis.png.png)
